@@ -28,10 +28,12 @@ This guide walks through creating a fresh OAuth token file that works with the e
 This project uses [uv](https://docs.astral.sh/uv/getting-started/installation/) to manage dependencies. If you don't have it installed, follow the link above, then run:
 
 ```bash
+uv venv
 uv sync
 ```
 
-This installs everything listed in `pyproject.toml` (including the packages this guide's scripts need) into a local virtual environment.
+- `uv venv` creates a local virtual environment (`.venv`) for this project, isolated from your system Python.
+- `uv sync` installs everything listed in `pyproject.toml` (including the packages this guide's scripts need) into that environment.
 
 ## Step 5: Generate the Token File
 

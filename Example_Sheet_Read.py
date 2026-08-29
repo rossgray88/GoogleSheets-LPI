@@ -2,7 +2,7 @@ from shotsheet import shotsheet
 
 s = shotsheet()
 values = s.googlesheetsloader(
-    id='1RpeozLpwos29tEZN1ynouHcuUb1cWiPaNxnXMCTLlIE',
+    id='YOUR_SPREADSHEET_ID',
     tokenloc='token.pickle',
     sheetname='Sheet1!A1:Z100'
 )
